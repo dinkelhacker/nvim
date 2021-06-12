@@ -6,7 +6,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
-"Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'itchyny/lightline.vim'
 Plug 'mengelbrecht/lightline-bufferline'
 Plug 'lifepillar/vim-gruvbox8'
@@ -88,3 +88,5 @@ let g:lightline = {
 \    'buffers': 'tabsel'
 \  }
 \}
+
+source ~/.config/nvim/coc.vim
